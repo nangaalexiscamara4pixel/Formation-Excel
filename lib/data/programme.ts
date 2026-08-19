@@ -105,7 +105,7 @@ export const niveaux: Niveau[] = [
             bullets: [
               ".xlsx — le format Excel moderne (depuis 2007), conserve toutes les mises en forme, formules et graphiques.",
               ".xls — l'ancien format (avant 2007), à éviter sauf compatibilité avec de très vieux logiciels.",
-              ".csv — un format texte brut où les valeurs sont séparées par des virgules ou point-virgules ; aucune mise en forme n'est conservée, mais c'est le format universel pour échanger des données entre logiciels.",
+              ".csv — un format texte brut où les valeurs sont séparées par des virgules ou des points-virgules ; aucune mise en forme n'est conservée, mais c'est le format universel pour échanger des données entre logiciels.",
             ],
             note: "Ctrl + S pour enregistrer, F12 pour « Enregistrer sous » et choisir un autre format ou emplacement.",
           },
@@ -311,7 +311,7 @@ export const niveaux: Niveau[] = [
                 ["Kone", "Lyon", "480"],
               ],
             },
-            note: "Après un tri multicritère (Ville croissant, puis Montant décroissant) : Lyon/Kone/480, Lyon/Le Duff/320, Paris/Amara/150.",
+            note: "Après un tri multicritère (Ville croissante, puis Montant décroissant) : Lyon/Kone/480, Lyon/Le Duff/320, Paris/Amara/150.",
           },
           {
             title: "5.2 — Filtrer des données",
@@ -900,7 +900,7 @@ export const niveaux: Niveau[] = [
                   "Pour chercher sur plusieurs critères à la fois sans formule matricielle complexe, on crée une colonne « Clé » qui concatène les critères, puis on cherche sur cette clé unique.",
                 example: {
                   headers: ["Région", "Produit", "Trimestre", "Montant", "Clé"],
-                  rows: [["Sud", "Produit B", "T2", "671", '=Sud&"|"&Produit B&"|"&T2']],
+                  rows: [["Sud", "Produit B", "T2", "671", "Sud|Produit B|T2"]],
                 },
                 result: 'Clé = "Sud|Produit B|T2" ; EQUIV la retrouve et INDEX renvoie 671',
                 note: "Cette méthode évite d'avoir à saisir une formule matricielle avec Ctrl+Maj+Entrée : elle fonctionne comme une formule normale, plus simple à maintenir.",

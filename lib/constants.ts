@@ -9,7 +9,7 @@ export const formateur = {
   bio: "Reconverti vers la data analyse après un parcours en physique et chimie, Nanga applique une rigueur scientifique à l'analyse de données. Il a passé 2 ans comme formateur Power BI et Power Query chez Lahora Tech Africa avant de se consacrer à des projets d'analyse indépendants.",
   skills: ["Excel (Power Query, TCD)", "SQL & PostgreSQL", "Power BI", "Tableau"],
   highlights: [
-    "2 ans de formation Power BI / Power Query chez Lahora Tech Africa",
+    "2 ans comme formateur Power BI / Power Query chez Lahora Tech Africa",
     "Conception de bases de données et requêtes métier (projet NovaShop)",
     "Tableaux de bord Power BI et Tableau pour le suivi commercial et opérationnel",
   ],
